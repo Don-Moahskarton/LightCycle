@@ -1,0 +1,814 @@
+﻿Log file open, 02/21/15 18:14:55
+LogInit:Display: Running engine for game: LightCycle
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: E:/Unreal Engine 4/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.21-17.14.55:682][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.21-17.14.55:735][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.21-17.14.55:773][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.21-17.14.55:781][  0]LogInit: Object subsystem initialized
+[2015.02.21-17.14.55:783][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.21-17.14.55:783][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.21-17.14.55:825][  0]LogInit: Computer: MARSYA-SAKADO
+[2015.02.21-17.14.55:825][  0]LogInit: User: Marsya
+[2015.02.21-17.14.55:825][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.02.21-17.14.55:825][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2015.02.21-17.14.55:825][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.02.21-17.14.55:825][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.21-17.14.55:825][  0]LogMemory: Process Physical Memory: 48.04 MB used, 48.04 MB peak
+[2015.02.21-17.14.55:825][  0]LogMemory: Process Virtual Memory: 24.01 MB used, 24.01 MB peak
+[2015.02.21-17.14.55:825][  0]LogMemory: Physical Memory: 2651.80 MB used, 8072.96 MB total
+[2015.02.21-17.14.55:825][  0]LogMemory: Virtual Memory: 269.17 MB used, 134217728.00 MB total
+[2015.02.21-17.14.55:882][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.02.21-17.14.55:882][  0]LogD3D11RHI: Adapter has 2059MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2015.02.21-17.14.55:885][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.21-17.14.55:885][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.21-17.14.55:888][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.21-17.14.55:888][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.21-17.14.55:888][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.21-17.14.55:898][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.21-17.14.55:935][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.21-17.14.56:024][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.21-17.14.56:207][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.21-17.15.01:695][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-17.15.02:157][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-17.15.02:208][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.21-17.15.02:247][  0]LogDerivedDataCache: Loaded boot cache 0.04s 40MB C:/Users/Marsya/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.21-17.15.02:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Marsya/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.21-17.15.02:268][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Bitbucket/lightcycle/LightCycle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.21-17.15.02:268][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.21-17.15.02:332][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.21-17.15.02:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marsya/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.21-17.15.03:350][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.21-17.15.03:483][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.21-17.15.03:483][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.21-17.15.03:821][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.21-17.15.03:871][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.21-17.15.04:592][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.21-17.15.04:753][  0]LogLinker:Warning: Asset '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.15.04:836][  0]LogLinker:Warning: Asset '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Character/HeroFPP_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.15.05:550][  0]LogLinker:Warning: Asset '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Character/HeroFPP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.15.06:105][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.02.21-17.15.06:109][  0]BlueprintLog:Warning: Warning Blueprint Projectile has been migrated and requires re-saving to avoid import errors
+[2015.02.21-17.15.06:348][  0]LogTexture:Display: Building textures: MG_MovieCycle_Body_EMSSblur (AutoDXT)
+[2015.02.21-17.15.06:871][  0]LogTexture:Display: Building textures: MG_MovieCycle_Body_NORM (BC5)
+[2015.02.21-17.15.07:426][  0]SourceControl: Info Source control is disabled
+[2015.02.21-17.15.07:427][  0]SourceControl: Info Source control is disabled
+[2015.02.21-17.15.07:433][  0]SourceControl: Info Source control is disabled
+[2015.02.21-17.15.07:543][  0]LogObj: 28003 objects as part of root set at end of initial load.
+[2015.02.21-17.15.07:543][  0]LogUObjectAllocator: 6741872 out of 0 bytes used by permanent object pool.
+[2015.02.21-17.15.07:596][  0]LogEngine: Initializing Engine...
+[2015.02.21-17.15.07:726][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.21-17.15.07:738][  0]LogInit: FAudioDevice initialized.
+[2015.02.21-17.15.07:757][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.21-17.15.07:778][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Marsya/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.21-17.15.07:782][  0]LogInit: Texture streaming: Enabled
+[2015.02.21-17.15.07:807][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.21-17.15.07:807][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.21-17.15.07:808][  0]LogAnalytics: SetUserId 6f16df9e7b9f9f8a6ccf8b2f2ea848fa
+[2015.02.21-17.15.07:808][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.21-17.15.07:824][  0]LogInit: Transaction tracking system initialized
+[2015.02.21-17.15.07:913][  0]BlueprintLog: New page: Editor Load
+[2015.02.21-17.15.07:942][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.02.21-17.15.07:942][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.21-17.15.08:463][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-17.15.08:869][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.21-17.15.09:033][  0]LogConsoleResponse:Display: 
+[2015.02.21-17.15.09:097][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.15.09:260][  0]SourceControl: Info Source control is disabled
+[2015.02.21-17.15.09:260][  0]Cmd: MAP LOAD FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.21-17.15.09:261][  0]LightingResults: New page: Lighting Build
+[2015.02.21-17.15.09:269][  0]MapCheck: New page: Map Check
+[2015.02.21-17.15.09:269][  0]LightingResults: New page: Lighting Build
+[2015.02.21-17.15.09:287][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007EF22A340
+[2015.02.21-17.15.09:289][  0]LogLinker:Warning: Asset '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Maps/Example_Map.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.15.10:080][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.02.21-17.15.10:331][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.02.21-17.15.10:442][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.02.21-17.15.10:541][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.21-17.15.10:541][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.21-17.15.10:555][  0]Cmd: MAP CHECKDEP
+[2015.02.21-17.15.10:556][  0]MapCheck: New page: Example_Map - Feb 21, 2015, 7:15:10 PM
+[2015.02.21-17.15.10:667][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.672ms to complete.
+[2015.02.21-17.15.10:667][  0]LogFileHelpers: Loading map 'Example_Map' took 1.407
+[2015.02.21-17.15.12:555][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.21-17.15.12:799][  0]LogCollectionManager: Loaded 0 collections in 0.004470 seconds
+[2015.02.21-17.15.13:037][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.21-17.15.13:084][  0]LogLoad: Full Startup: 20.02 seconds (BP compile: 0.22 seconds)
+[2015.02.21-17.15.13:437][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TronMaterials/LightCycleTail'
+[2015.02.21-17.15.13:790][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x944.
+[2015.02.21-17.15.15:813][  5]LogAssetRegistry: Asset discovery search completed in 7.8828 seconds
+[2015.02.21-17.15.23:662][185]Cmd: MAP LOAD FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/Maps/TestTrack.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.21-17.15.23:673][185]LightingResults: New page: Lighting Build
+[2015.02.21-17.15.23:715][185]LoadErrors: New page: Loading map: TestTrack.umap
+[2015.02.21-17.15.23:716][185]MapCheck: New page: Map Check
+[2015.02.21-17.15.23:716][185]LightingResults: New page: Lighting Build
+[2015.02.21-17.15.23:743][185]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007E65C22A0
+[2015.02.21-17.15.25:206][185]LogLinker:Warning: Asset '../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/Glow/VeryLow/GlowVeryLow_DarkBlue.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.15.26:683][185]LogMaterial: Missing cached shader map for material FlakedandGlossyPlastic, compiling.
+[2015.02.21-17.15.26:865][185]LogTexture:Display: Building textures: MG_Player_Disc_EMSS (AutoDXT)
+[2015.02.21-17.15.28:042][185]LogTexture:Display: Building textures: MG_Player_Helmet_SPPW (AutoDXT)
+[2015.02.21-17.15.28:307][185]LogTexture:Display: Building textures: MG_Player_Body_DIFF (AutoDXT)
+[2015.02.21-17.15.30:436][185]LogTexture:Display: Building textures: MG_Player_Body_EMSS (AutoDXT)
+[2015.02.21-17.15.32:126][185]LogTexture:Display: Building textures: MG_Player_Body_NORM (AutoDXT)
+[2015.02.21-17.15.34:451][185]LogMaterial: Missing cached shader map for material LightCyclePilot, compiling.
+[2015.02.21-17.15.34:551][185]LogStaticMesh: Building static mesh MaterialWorkbench_Spine3...
+[2015.02.21-17.15.34:589][185]LogStaticMesh: Built static mesh [37.956875ms] /Game/LightCycle/MainFrame/MaterialWorkbench_Spine3.MaterialWorkbench_Spine3
+[2015.02.21-17.15.34:652][185]LogTexture:Display: Building textures: MG_MovieCycle_BodyHeadLight_EMSS (AutoDXT)
+[2015.02.21-17.15.35:727][185]LogStaticMesh: Building static mesh MaterialWorkbench_Spine0...
+[2015.02.21-17.15.35:730][185]LogStaticMesh: Built static mesh [3.436201ms] /Game/LightCycle/MainFrame/MaterialWorkbench_Spine0.MaterialWorkbench_Spine0
+[2015.02.21-17.15.35:787][185]LogStaticMesh: Building static mesh MaterialWorkbench_Spine4...
+[2015.02.21-17.15.35:789][185]LogStaticMesh: Built static mesh [2.468848ms] /Game/LightCycle/MainFrame/MaterialWorkbench_Spine4.MaterialWorkbench_Spine4
+[2015.02.21-17.15.35:937][185]LogStaticMesh: Building static mesh MaterialWorkbench_RearTire...
+[2015.02.21-17.15.35:942][185]LogStaticMesh: Built static mesh [5.240474ms] /Game/LightCycle/Tires/MaterialWorkbench_RearTire.MaterialWorkbench_RearTire
+[2015.02.21-17.15.36:260][185]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.02.21-17.15.36:325][185]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.02.21-17.15.36:381][185]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.02.21-17.15.36:438][185]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.02.21-17.15.36:536][185]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.02.21-17.15.36:624][185]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.02.21-17.15.36:681][185]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.02.21-17.15.36:740][185]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.02.21-17.15.36:807][185]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.02.21-17.15.36:863][185]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.02.21-17.15.36:932][185]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2015.02.21-17.15.37:006][185]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2015.02.21-17.15.37:071][185]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2015.02.21-17.15.37:126][185]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2015.02.21-17.15.37:181][185]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2015.02.21-17.15.37:241][185]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2015.02.21-17.15.37:295][185]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2015.02.21-17.15.37:352][185]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2015.02.21-17.15.37:409][185]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2015.02.21-17.15.37:469][185]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.02.21-17.15.37:527][185]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT)
+[2015.02.21-17.15.37:582][185]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT)
+[2015.02.21-17.15.37:639][185]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2015.02.21-17.15.37:702][185]LogTexture:Display: Building textures: HQ_Lightmap1_33 (AutoDXT)
+[2015.02.21-17.15.37:762][185]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2015.02.21-17.15.37:822][185]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2015.02.21-17.15.37:883][185]LogTexture:Display: Building textures: HQ_Lightmap1_36 (AutoDXT)
+[2015.02.21-17.15.37:943][185]LogTexture:Display: Building textures: HQ_Lightmap1_37 (AutoDXT)
+[2015.02.21-17.15.37:999][185]LogTexture:Display: Building textures: HQ_Lightmap1_38 (AutoDXT)
+[2015.02.21-17.15.38:057][185]LogTexture:Display: Building textures: HQ_Lightmap1_39 (AutoDXT)
+[2015.02.21-17.15.38:113][185]LogTexture:Display: Building textures: HQ_Lightmap1_40 (AutoDXT)
+[2015.02.21-17.15.38:171][185]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2015.02.21-17.15.38:228][185]LogTexture:Display: Building textures: HQ_Lightmap1_43 (AutoDXT)
+[2015.02.21-17.15.38:336][185]LogTexture:Display: Building textures: HQ_Lightmap1_44 (AutoDXT)
+[2015.02.21-17.15.38:407][185]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2015.02.21-17.15.38:463][185]LogTexture:Display: Building textures: HQ_Lightmap1_46 (AutoDXT)
+[2015.02.21-17.15.38:519][185]LogTexture:Display: Building textures: HQ_Lightmap1_47 (AutoDXT)
+[2015.02.21-17.15.38:578][185]LogTexture:Display: Building textures: HQ_Lightmap1_48 (AutoDXT)
+[2015.02.21-17.15.38:636][185]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
+[2015.02.21-17.15.38:692][185]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.02.21-17.15.38:749][185]LogTexture:Display: Building textures: HQ_Lightmap1_50 (AutoDXT)
+[2015.02.21-17.15.38:805][185]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2015.02.21-17.15.38:863][185]LogTexture:Display: Building textures: HQ_Lightmap1_52 (AutoDXT)
+[2015.02.21-17.15.38:917][185]LogTexture:Display: Building textures: HQ_Lightmap1_53 (AutoDXT)
+[2015.02.21-17.15.38:974][185]LogTexture:Display: Building textures: HQ_Lightmap1_54 (AutoDXT)
+[2015.02.21-17.15.39:030][185]LogTexture:Display: Building textures: HQ_Lightmap1_55 (AutoDXT)
+[2015.02.21-17.15.39:088][185]LogTexture:Display: Building textures: HQ_Lightmap1_56 (AutoDXT)
+[2015.02.21-17.15.39:144][185]LogTexture:Display: Building textures: HQ_Lightmap1_57 (AutoDXT)
+[2015.02.21-17.15.39:201][185]LogTexture:Display: Building textures: HQ_Lightmap1_58 (AutoDXT)
+[2015.02.21-17.15.39:259][185]LogTexture:Display: Building textures: HQ_Lightmap1_59 (AutoDXT)
+[2015.02.21-17.15.39:318][185]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.02.21-17.15.39:372][185]LogTexture:Display: Building textures: HQ_Lightmap1_60 (AutoDXT)
+[2015.02.21-17.15.39:429][185]LogTexture:Display: Building textures: HQ_Lightmap1_61 (AutoDXT)
+[2015.02.21-17.15.39:486][185]LogTexture:Display: Building textures: HQ_Lightmap1_62 (AutoDXT)
+[2015.02.21-17.15.39:544][185]LogTexture:Display: Building textures: HQ_Lightmap1_63 (AutoDXT)
+[2015.02.21-17.15.39:598][185]LogTexture:Display: Building textures: HQ_Lightmap1_64 (AutoDXT)
+[2015.02.21-17.15.39:658][185]LogTexture:Display: Building textures: HQ_Lightmap1_65 (AutoDXT)
+[2015.02.21-17.15.39:713][185]LogTexture:Display: Building textures: HQ_Lightmap1_66 (AutoDXT)
+[2015.02.21-17.15.39:768][185]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2015.02.21-17.15.39:827][185]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2015.02.21-17.15.40:145][185]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2015.02.21-17.15.40:288][185]LogTexture:Display: Building textures: HQ_Lightmap1_71 (AutoDXT)
+[2015.02.21-17.15.40:687][185]LogTexture:Display: Building textures: HQ_Lightmap1_73 (AutoDXT)
+[2015.02.21-17.15.40:696][185]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.02.21-17.15.40:720][185]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.02.21-17.15.40:742][185]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.02.21-17.15.40:768][185]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.02.21-17.15.40:816][185]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.02.21-17.15.40:863][185]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.02.21-17.15.40:909][185]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.02.21-17.15.40:940][185]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.02.21-17.15.40:964][185]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.02.21-17.15.40:987][185]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.02.21-17.15.41:039][185]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2015.02.21-17.15.41:063][185]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2015.02.21-17.15.41:087][185]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2015.02.21-17.15.41:114][185]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2015.02.21-17.15.41:137][185]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2015.02.21-17.15.41:162][185]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2015.02.21-17.15.41:187][185]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2015.02.21-17.15.41:213][185]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2015.02.21-17.15.41:238][185]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2015.02.21-17.15.41:264][185]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.02.21-17.15.41:289][185]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2015.02.21-17.15.41:316][185]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2015.02.21-17.15.41:343][185]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2015.02.21-17.15.41:369][185]LogTexture:Display: Building textures: LQ_Lightmap_1_33 (DXT1)
+[2015.02.21-17.15.41:396][185]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2015.02.21-17.15.41:421][185]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2015.02.21-17.15.41:447][185]LogTexture:Display: Building textures: LQ_Lightmap_1_36 (DXT1)
+[2015.02.21-17.15.41:474][185]LogTexture:Display: Building textures: LQ_Lightmap_1_37 (DXT1)
+[2015.02.21-17.15.41:499][185]LogTexture:Display: Building textures: LQ_Lightmap_1_38 (DXT1)
+[2015.02.21-17.15.41:526][185]LogTexture:Display: Building textures: LQ_Lightmap_1_39 (DXT1)
+[2015.02.21-17.15.41:552][185]LogTexture:Display: Building textures: LQ_Lightmap_1_40 (DXT1)
+[2015.02.21-17.15.41:577][185]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2015.02.21-17.15.41:602][185]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2015.02.21-17.15.41:648][185]LogTexture:Display: Building textures: LQ_Lightmap_1_43 (DXT1)
+[2015.02.21-17.15.41:690][185]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2015.02.21-17.15.41:712][185]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2015.02.21-17.15.41:737][185]LogTexture:Display: Building textures: LQ_Lightmap_1_46 (DXT1)
+[2015.02.21-17.15.41:763][185]LogTexture:Display: Building textures: LQ_Lightmap_1_47 (DXT1)
+[2015.02.21-17.15.41:791][185]LogTexture:Display: Building textures: LQ_Lightmap_1_48 (DXT1)
+[2015.02.21-17.15.41:815][185]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
+[2015.02.21-17.15.41:848][185]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.02.21-17.15.41:880][185]LogTexture:Display: Building textures: LQ_Lightmap_1_50 (DXT1)
+[2015.02.21-17.15.41:911][185]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2015.02.21-17.15.41:944][185]LogTexture:Display: Building textures: LQ_Lightmap_1_52 (DXT1)
+[2015.02.21-17.15.41:976][185]LogTexture:Display: Building textures: LQ_Lightmap_1_53 (DXT1)
+[2015.02.21-17.15.42:009][185]LogTexture:Display: Building textures: LQ_Lightmap_1_54 (DXT1)
+[2015.02.21-17.15.42:040][185]LogTexture:Display: Building textures: LQ_Lightmap_1_55 (DXT1)
+[2015.02.21-17.15.42:071][185]LogTexture:Display: Building textures: LQ_Lightmap_1_56 (DXT1)
+[2015.02.21-17.15.42:102][185]LogTexture:Display: Building textures: LQ_Lightmap_1_57 (DXT1)
+[2015.02.21-17.15.42:133][185]LogTexture:Display: Building textures: LQ_Lightmap_1_58 (DXT1)
+[2015.02.21-17.15.42:166][185]LogTexture:Display: Building textures: LQ_Lightmap_1_59 (DXT1)
+[2015.02.21-17.15.42:197][185]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.02.21-17.15.42:233][185]LogTexture:Display: Building textures: LQ_Lightmap_1_60 (DXT1)
+[2015.02.21-17.15.42:264][185]LogTexture:Display: Building textures: LQ_Lightmap_1_61 (DXT1)
+[2015.02.21-17.15.42:293][185]LogTexture:Display: Building textures: LQ_Lightmap_1_62 (DXT1)
+[2015.02.21-17.15.42:323][185]LogTexture:Display: Building textures: LQ_Lightmap_1_63 (DXT1)
+[2015.02.21-17.15.42:353][185]LogTexture:Display: Building textures: LQ_Lightmap_1_64 (DXT1)
+[2015.02.21-17.15.42:380][185]LogTexture:Display: Building textures: LQ_Lightmap_1_65 (DXT1)
+[2015.02.21-17.15.42:403][185]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2015.02.21-17.15.42:429][185]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2015.02.21-17.15.42:505][185]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2015.02.21-17.15.42:592][185]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2015.02.21-17.15.42:644][185]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2015.02.21-17.15.42:753][185]LogTexture:Display: Building textures: LQ_Lightmap_1_72 (DXT1)
+[2015.02.21-17.15.42:780][185]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2015.02.21-17.15.42:786][185]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.02.21-17.15.42:791][185]LogTexture:Display: Building textures: ShadowMapTexture2D_102 (BGRA8)
+[2015.02.21-17.15.42:794][185]LogTexture:Display: Building textures: ShadowMapTexture2D_103 (BGRA8)
+[2015.02.21-17.15.42:797][185]LogTexture:Display: Building textures: ShadowMapTexture2D_106 (BGRA8)
+[2015.02.21-17.15.42:801][185]LogTexture:Display: Building textures: ShadowMapTexture2D_112 (BGRA8)
+[2015.02.21-17.15.42:804][185]LogTexture:Display: Building textures: ShadowMapTexture2D_114 (BGRA8)
+[2015.02.21-17.15.42:807][185]LogTexture:Display: Building textures: ShadowMapTexture2D_115 (BGRA8)
+[2015.02.21-17.15.42:810][185]LogTexture:Display: Building textures: ShadowMapTexture2D_116 (BGRA8)
+[2015.02.21-17.15.42:813][185]LogTexture:Display: Building textures: ShadowMapTexture2D_118 (BGRA8)
+[2015.02.21-17.15.42:816][185]LogTexture:Display: Building textures: ShadowMapTexture2D_119 (BGRA8)
+[2015.02.21-17.15.42:819][185]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.02.21-17.15.42:822][185]LogTexture:Display: Building textures: ShadowMapTexture2D_120 (BGRA8)
+[2015.02.21-17.15.42:825][185]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.02.21-17.15.42:828][185]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.02.21-17.15.42:831][185]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.02.21-17.15.42:835][185]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.02.21-17.15.42:838][185]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.02.21-17.15.42:841][185]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2015.02.21-17.15.42:845][185]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (BGRA8)
+[2015.02.21-17.15.42:849][185]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (BGRA8)
+[2015.02.21-17.15.42:852][185]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8)
+[2015.02.21-17.15.42:855][185]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (BGRA8)
+[2015.02.21-17.15.42:858][185]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (BGRA8)
+[2015.02.21-17.15.42:861][185]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (BGRA8)
+[2015.02.21-17.15.42:864][185]LogTexture:Display: Building textures: ShadowMapTexture2D_94 (BGRA8)
+[2015.02.21-17.15.42:868][185]LogTexture:Display: Building textures: ShadowMapTexture2D_96 (BGRA8)
+[2015.02.21-17.15.42:871][185]LogTexture:Display: Building textures: ShadowMapTexture2D_97 (BGRA8)
+[2015.02.21-17.15.42:874][185]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (BGRA8)
+[2015.02.21-17.15.42:877][185]LogTexture:Display: Building textures: ShadowMapTexture2D_99 (BGRA8)
+[2015.02.21-17.15.43:072][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.21-17.15.43:072][185]LogAIModule: Creating AISystem for world TestTrack
+[2015.02.21-17.15.43:161][185]Cmd: MAP CHECKDEP
+[2015.02.21-17.15.43:161][185]MapCheck: New page: TestTrack - Feb 21, 2015, 7:15:43 PM
+[2015.02.21-17.15.43:363][185]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 202.206ms to complete.
+[2015.02.21-17.15.43:364][185]LogFileHelpers: Loading map 'TestTrack' took 19.705
+[2015.02.21-17.15.56:930][619]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.02.21-17.15.56:930][619]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.02.21-17.15.56:974][620]LogRenderer:Warning: Reallocating scene render targets to support 1136x944.
+[2015.02.21-17.15.59:467][746]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.21-17.15.59:494][746]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.02.21-17.15.59:494][746]LogSynthBenchmark:Display: ===============
+[2015.02.21-17.15.59:494][746]LogSynthBenchmark:Display: Main Processor:
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:          ... 0.022368 s/Run 'RayIntersect'
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:          ... 0.025509 s/Run 'Fractal'
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display: 
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   CPU Perf Index 0: 114.5
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   CPU Perf Index 1: 112.1
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:  
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display: Graphics:
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics Family'
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2015.02.21-17.15.59:542][746]LogSynthBenchmark:Display:   GPU Memory: 2060/0/4037 MB
+[2015.02.21-17.15.59:575][746]LogSynthBenchmark:Display:   GPU first test: 0.02s
+[2015.02.21-17.15.59:575][746]LogSynthBenchmark:Display:          ... 0.217 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2015.02.21-17.15.59:575][746]LogSynthBenchmark:Display:          ... 0.419 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2015.02.21-17.15.59:575][746]LogSynthBenchmark:Display:          ... 0.390 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2015.02.21-17.15.59:575][746]LogSynthBenchmark:Display:          ... 0.680 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2015.02.21-17.15.59:575][746]LogSynthBenchmark:Display:          ... 0.116 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPU second test: 0.10s
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.630 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.704 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.563 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 1.163 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.118 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.630 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.704 GigaPix/s, Confidence=100% 'TexHeavy'
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.563 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 1.163 GigaPix/s, Confidence=100% 'FillOnly'
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... 0.118 GigaPix/s, Confidence=100% 'Bandwidth'
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display: 
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPU Perf Index 0: 13.7
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPU Perf Index 1: 9.5
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPU Perf Index 2: 14.6
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPU Perf Index 3: 4.6
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPU Perf Index 4: 11.0
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   CPUIndex: 114.5
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:   GPUIndex: 13.7
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display: 
+[2015.02.21-17.15.59:683][746]LogSynthBenchmark:Display:          ... Total Time: 0.189186 sec
+[2015.02.21-17.15.59:683][746]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.02.21-17.15.59:683][746]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.02.21-17.16.00:950][808]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.02.21-17.16.00:950][808]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.02.21-17.16.00:986][809]LogRenderer:Warning: Reallocating scene render targets to support 1136x944.
+[2015.02.21-17.16.02:435][861]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-17.16.12:864][  8]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.21-17.16.13:169][  8]PIE: New page: PIE session: TestTrack (Feb 21, 2015, 7:16:12 PM)
+[2015.02.21-17.16.13:302][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131429s)
+[2015.02.21-17.16.13:303][  8]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2015.02.21-17.16.13:305][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestTrack.TestTrack to /Game/Maps/UEDPIE_0_TestTrack.TestTrack (0.134378s)
+[2015.02.21-17.16.13:447][  8]LogWorld: Game class is 'LightCycleGameMode'
+[2015.02.21-17.16.13:516][  8]LogAIModule: Creating AISystem for world TestTrack
+[2015.02.21-17.16.13:534][  8]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestTrack.TestTrack up for play (max tick rate 60) at 2015.02.21-18.16.13
+[2015.02.21-17.16.13:539][  8]LogWorld: Bringing up level for play took: 0.021956
+[2015.02.21-17.16.13:668][  8]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestTrack -0.181
+[2015.02.21-17.16.41:217][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F89CDC60
+[2015.02.21-17.18.22:550][682]Running E:/Unreal Engine 4/Unreal Engine/4.6/Engine/Binaries/DotNET/UnrealBuildTool.exe -projectfiles -project="E:/Bitbucket/lightcycle/LightCycle/LightCycle.uproject" -game -rocket -progress
+[2015.02.21-17.18.23:155][682]Discovering modules, targets and source code for game...
+[2015.02.21-17.18.42:779][712]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/Bitbucket/lightcycle/LightCycle/Source/LightCycle/Public/LightCycleTail.h'
+[2015.02.21-17.18.42:852][712]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/Bitbucket/lightcycle/LightCycle/Source/LightCycle/Private/LightCycleTail.cpp'
+[2015.02.21-17.21.45:825][579]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-17.23.37:568][808]LogHotReload: New module detected: UE4Editor-LightCycle-6652-Win64-DebugGame.dll
+[2015.02.21-17.23.39:240][814]LogHotReload: Starting Hot-Reload from IDE
+[2015.02.21-17.23.39:274][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.LightCycleMovementComponent_0) Not registered. Aborting.
+[2015.02.21-17.23.39:275][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.02.21-17.23.39:342][814]LogClass: Could not find existing class LightCycleCharacter in package /Script/LightCycle for HotReload, assuming new class
+[2015.02.21-17.23.39:344][814]LogClass: Could not find existing class LightCycleHUD in package /Script/LightCycle for HotReload, assuming new class
+[2015.02.21-17.23.39:347][814]LogClass: Could not find existing class LightCycleTail in package /Script/LightCycle for HotReload, assuming new class
+[2015.02.21-17.23.39:399][814]LogHotReload: Re-instancing LightCycleCharacter after hot-reload.
+[2015.02.21-17.23.39:681][814]LogHotReload: Re-instancing LightCycleGameMode after hot-reload.
+[2015.02.21-17.23.39:737][814]LogHotReload: Re-instancing LightCycleHUD after hot-reload.
+[2015.02.21-17.23.39:786][814]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2015.02.21-17.23.51:762][946]Recompiling LightCycle...
+[2015.02.21-17.23.51:765][946]Launching UnrealBuildTool... [E:/Unreal Engine 4/Unreal Engine/4.6/Engine/Binaries/DotNET/UnrealBuildTool.exe LightCycle -ModuleWithSuffix LightCycle 1764 Win64 Development -editorrecompile -canskiplink "E:/Bitbucket/lightcycle/LightCycle/LightCycle.uproject" -rocket  -rocket]
+[2015.02.21-17.23.51:766][946]Warning: Starting HotReload took  0.0s.
+[2015.02.21-17.24.32:514][491]CompilerResultsLog: New page: Compilation - Feb 21, 2015, 7:24:32 PM
+[2015.02.21-17.24.32:515][491]CompilerResultsLog: Info Performing 11 actions (2 in parallel)
+[2015.02.21-17.24.32:515][491]CompilerResultsLog: Info PCH.LightCycle.LightCycle.h.cpp
+[2015.02.21-17.24.32:515][491]CompilerResultsLog: Info LightCycle.generated.cpp
+[2015.02.21-17.24.32:515][491]CompilerResultsLog: Info LightCycleGameMode.cpp
+[2015.02.21-17.24.32:515][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleGameMode.cpp(8) : warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public/LightCycleProjectile.h(13) : warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public/LightCycleProjectile.h(17) : warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog: Info LightCycleCharacter.cpp
+[2015.02.21-17.24.32:516][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(13) : warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(17) : warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleCharacter.cpp(13) : warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleCharacter.cpp(22)  : warning C4996: 'ACharacter::CapsuleComponent': CapsuleComponent should not be accessed directly, please use GetCapsuleComponent() function instead. CapsuleComponent will soon be private and your code will not compile. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2015.02.21-17.24.32:516][491]CompilerResultsLog: Info          E:\Unreal Engine 4\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(230)  : see declaration of 'ACharacter::CapsuleComponent'
+[2015.02.21-17.24.32:517][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleCharacter.cpp(30)  : warning C4996: 'ACharacter::CapsuleComponent': CapsuleComponent should not be accessed directly, please use GetCapsuleComponent() function instead. CapsuleComponent will soon be private and your code will not compile. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info          E:\Unreal Engine 4\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(230)  : see declaration of 'ACharacter::CapsuleComponent'
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info LightCycleProjectile.cpp
+[2015.02.21-17.24.32:517][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(13) : warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+[2015.02.21-17.24.32:517][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(17) : warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+[2015.02.21-17.24.32:517][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleProjectile.cpp(7) : warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info LightCycleTail.cpp
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info LightCycleHud.cpp
+[2015.02.21-17.24.32:517][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleHud.cpp(9) : warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info LightCycleMovementComponent.cpp
+[2015.02.21-17.24.32:517][491]CompilerResultsLog:Error: Error E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleMovementComponent.cpp(7) : warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info LightCycle.cpp
+[2015.02.21-17.24.32:517][491]CompilerResultsLog: Info AutoStartupModuleListGetter.generated.cpp
+[2015.02.21-17.24.32:518][491]CompilerResultsLog: Info [11/11] Link UE4Editor-LightCycle-1764.dll
+[2015.02.21-17.24.32:518][491]CompilerResultsLog: Info    Creating library E:\Bitbucket\lightcycle\LightCycle\Intermediate\Build\Win64\LightCycleEditor\Development\UE4Editor-LightCycle-1764.lib and object E:\Bitbucket\lightcycle\LightCycle\Intermediate\Build\Win64\LightCycleEditor\Development\UE4Editor-LightCycle-1764.exp
+[2015.02.21-17.24.32:518][491]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.02.21-17.24.32:518][491]CompilerResultsLog: Info Cumulative action seconds (4 processors): 0,00 building projects, 36,09 compiling, 0,00 creating app bundles, 0,00 generating debug info, 0,91 linking, 0,00 other
+[2015.02.21-17.24.32:518][491]CompilerResultsLog: Info UBT execution time: 40,54 seconds
+[2015.02.21-17.24.32:518][491]LogMainFrame: MainFrame: Module compiling took 40.763 seconds
+[2015.02.21-17.24.32:611][491]LogLinker:Warning: Asset '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.21-17.24.32:621][491]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2015.02.21-17.24.53:678][760]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TronMaterials/LightCycleTail'
+[2015.02.21-17.25.14:141][141]LogMetaData: Removing '/Game/TronMaterials/LightCycleTail/Tail_Proto.Tail_Proto:UserConstructionScript.K2Node_FunctionEntry_45' ref from Metadata '/Game/TronMaterials/LightCycleTail/NewBlueprint.PackageMetaData'
+[2015.02.21-17.25.14:141][141]LogMetaData: Removing '/Game/TronMaterials/LightCycleTail/Tail_Proto.SKEL_Tail_Proto_C' ref from Metadata '/Game/TronMaterials/LightCycleTail/NewBlueprint.PackageMetaData'
+[2015.02.21-17.25.14:141][141]LogMetaData: Removing '/Game/TronMaterials/LightCycleTail/Tail_Proto.Tail_Proto_C' ref from Metadata '/Game/TronMaterials/LightCycleTail/NewBlueprint.PackageMetaData'
+[2015.02.21-17.25.14:188][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TronMaterials/LightCycleTail/Tail_Proto" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/Tail_Proto.uasset" SILENT=true
+[2015.02.21-17.25.14:228][141]LogSavePackage: Save=24.096174ms
+[2015.02.21-17.25.14:228][141]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_Proto142AB118477350385478559F088D6DB4.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/Tail_Proto.uasset'
+[2015.02.21-17.25.18:950][182]LogRenderer:Warning: Reallocating scene render targets to support 1400x944.
+[2015.02.21-17.26.23:385][796]LogMaterial:Warning: Material /Engine/EngineMaterials/DefaultMaterial.DefaultMaterial needed to have new flag set bUsedWithSplineMeshes !
+[2015.02.21-17.26.23:390][796]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling.
+[2015.02.21-17.26.23:491][796]LogMaterial: 0.000220 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.21-17.26.24:496][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestTrack" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Maps/TestTrack_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.02.21-17.26.27:409][804]LogSavePackage: Save=2756.879150ms
+[2015.02.21-17.26.27:409][804]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/TestTrack_Auto14579BEC34858C8737BD478B4F85789BA.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Maps/TestTrack_Auto1.umap'
+[2015.02.21-17.26.27:418][804]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestTrack' took 3.139
+[2015.02.21-17.26.27:418][804]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.139
+[2015.02.21-17.26.27:427][804]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineMaterials/DefaultMaterial] ([1] browsable assets)...
+[2015.02.21-17.26.41:186][804]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EngineMaterials/DefaultMaterial.DefaultMaterial]
+[2015.02.21-17.26.41:187][804]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineMaterials/DefaultMaterial]
+[2015.02.21-17.26.41:588][804]LogSavePackage: Save=391.449829ms
+[2015.02.21-17.26.41:588][804]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/DefaultMaterial_Auto162B5BAF1491ABCC768FADDAE82E04F05.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Engine/EngineMaterials/DefaultMaterial_Auto1.uasset'
+[2015.02.21-17.26.41:619][804]LogSavePackage: Save=10.229060ms
+[2015.02.21-17.26.41:619][804]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/NewBlueprint_Auto13E4879AE41B9A7EEFCE7D0BF4CC112C3.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/TronMaterials/LightCycleTail/NewBlueprint_Auto1.uasset'
+[2015.02.21-17.26.41:663][804]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TronMaterials/LightCycleTail/Tail_Proto] ([1] browsable assets)...
+[2015.02.21-17.26.41:725][804]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TronMaterials/LightCycleTail/Tail_Proto.Tail_Proto]
+[2015.02.21-17.26.41:725][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/TronMaterials/LightCycleTail/Tail_Proto]
+[2015.02.21-17.26.42:262][804]LogSavePackage: Save=506.381470ms
+[2015.02.21-17.26.42:263][804]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_Proto_Auto1FD7ED99545891B8BD04571AB4CB0FA38.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/TronMaterials/LightCycleTail/Tail_Proto_Auto1.uasset'
+[2015.02.21-17.26.42:265][804]LogFileHelpers: Auto-saving content packages took 14.847
+[2015.02.21-17.36.43:352][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestTrack' took 0.049
+[2015.02.21-17.36.43:432][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TronMaterials/LightCycleTail/Tail_Proto] ([1] browsable assets)...
+[2015.02.21-17.36.43:495][254]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TronMaterials/LightCycleTail/Tail_Proto.Tail_Proto]
+[2015.02.21-17.36.43:495][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/TronMaterials/LightCycleTail/Tail_Proto]
+[2015.02.21-17.36.43:887][254]LogSavePackage: Save=361.848022ms
+[2015.02.21-17.36.43:887][254]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_Proto_Auto2E588E0E1478DEBC6DA0DBDBA32E9A8FF.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/TronMaterials/LightCycleTail/Tail_Proto_Auto2.uasset'
+[2015.02.21-17.36.43:891][254]LogFileHelpers: Auto-saving content packages took 0.539
+[2015.02.21-17.38.24:992][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.21-17.38.30:544][945]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TronMaterials/LightCycleTail'
+[2015.02.21-17.38.34:973][127]LogMetaData: Removing '/Game/Blueprints/Tail_Proto.Tail_Proto_C' ref from Metadata '/Game/TronMaterials/LightCycleTail/Tail_Proto.PackageMetaData'
+[2015.02.21-17.38.34:973][127]LogMetaData: Removing '/Game/Blueprints/Tail_Proto.SKEL_Tail_Proto_C' ref from Metadata '/Game/TronMaterials/LightCycleTail/Tail_Proto.PackageMetaData'
+[2015.02.21-17.38.34:973][127]LogMetaData: Removing '/Game/Blueprints/Tail_Proto.Tail_Proto:UserConstructionScript.K2Node_FunctionEntry_45' ref from Metadata '/Game/TronMaterials/LightCycleTail/Tail_Proto.PackageMetaData'
+[2015.02.21-17.38.35:122][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tail_Proto" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/Blueprints/Tail_Proto.uasset" SILENT=true
+[2015.02.21-17.38.36:238][127]LogSavePackage: Save=1111.484253ms
+[2015.02.21-17.38.36:239][127]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_ProtoC3AF976F47C02829F41BA280C661D802.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Blueprints/Tail_Proto.uasset'
+[2015.02.21-17.38.37:192][132]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.21-17.38.46:269][283]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Bitbucket\lightcycle\Art\Meshes\LightCycleTail.fbx)
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: Material, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: Model, ItemCount : 1
+[2015.02.21-17.38.46:387][283]LogFbx: ItemName: Video, ItemCount : 1
+[2015.02.21-17.39.20:250][283]LogFbx: Loading FBX Scene from E:\Bitbucket\lightcycle\Art\Meshes\LightCycleTail.fbx
+[2015.02.21-17.39.20:566][283]LogFbx: FBX Scene Loaded Succesfully
+[2015.02.21-17.39.20:580][283]LogFbx:Warning: Triangulating static mesh pPlane1
+[2015.02.21-17.39.20:874][283]LogFbx: == Initial material list:
+[2015.02.21-17.39.20:875][283]LogFbx: 0: phong1
+[2015.02.21-17.39.20:875][283]LogFbx: == After sorting:
+[2015.02.21-17.39.20:875][283]LogFbx: 0: phong1
+[2015.02.21-17.39.20:875][283]LogFbx: == Mapping table:
+[2015.02.21-17.39.20:875][283]LogFbx:   sort 0 -> 0
+[2015.02.21-17.39.20:878][283]LogStaticMesh: Building static mesh LightCycleTail...
+[2015.02.21-17.39.20:885][283]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.02.21-17.39.20:893][283]LogLayoutUV:Display: PackCharts: 8 ms
+[2015.02.21-17.39.20:893][283]LogLayoutUV:Display:   Rasterize: 19173
+[2015.02.21-17.39.20:893][283]LogLayoutUV:Display:   Find: 16
+[2015.02.21-17.39.20:903][283]LogLayoutUV:Display: PackCharts: 9 ms
+[2015.02.21-17.39.20:903][283]LogLayoutUV:Display:   Rasterize: 21915
+[2015.02.21-17.39.20:903][283]LogLayoutUV:Display:   Find: 17
+[2015.02.21-17.39.20:913][283]LogLayoutUV:Display: PackCharts: 10 ms
+[2015.02.21-17.39.20:913][283]LogLayoutUV:Display:   Rasterize: 23559
+[2015.02.21-17.39.20:913][283]LogLayoutUV:Display:   Find: 17
+[2015.02.21-17.39.20:924][283]LogLayoutUV:Display: PackCharts: 10 ms
+[2015.02.21-17.39.20:924][283]LogLayoutUV:Display:   Rasterize: 24806
+[2015.02.21-17.39.20:924][283]LogLayoutUV:Display:   Find: 19
+[2015.02.21-17.39.20:934][283]LogLayoutUV:Display: PackCharts: 10 ms
+[2015.02.21-17.39.20:935][283]LogLayoutUV:Display:   Rasterize: 25126
+[2015.02.21-17.39.20:935][283]LogLayoutUV:Display:   Find: 20
+[2015.02.21-17.39.20:946][283]LogLayoutUV:Display: PackCharts: 11 ms
+[2015.02.21-17.39.20:946][283]LogLayoutUV:Display:   Rasterize: 25500
+[2015.02.21-17.39.20:946][283]LogLayoutUV:Display:   Find: 20
+[2015.02.21-17.39.20:957][283]LogLayoutUV:Display: PackCharts: 11 ms
+[2015.02.21-17.39.20:957][283]LogLayoutUV:Display:   Rasterize: 25553
+[2015.02.21-17.39.20:957][283]LogLayoutUV:Display:   Find: 22
+[2015.02.21-17.39.20:968][283]LogLayoutUV:Display: PackCharts: 10 ms
+[2015.02.21-17.39.20:968][283]LogLayoutUV:Display:   Rasterize: 25001
+[2015.02.21-17.39.20:968][283]LogLayoutUV:Display:   Find: 20
+[2015.02.21-17.39.20:975][283]LogStaticMesh: Built static mesh [98.564880ms] /Game/Meshes/LightCycleTail.LightCycleTail
+[2015.02.21-17.39.21:080][283]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.21-17.39.21:080][283]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.21-17.39.25:062][366]LogRenderer:Warning: Reallocating scene render targets to support 1432x944.
+[2015.02.21-17.39.54:308][961]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.21-17.39.54:308][961]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TronMaterials/LightCycleTail'
+[2015.02.21-17.39.56:691][999]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.21-17.39.56:752][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.21-17.39.56:929][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.21-17.39.56:930][999]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.02.21-17.39.56:930][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.21-17.39.56:930][999]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.02.21-17.39.56:934][999]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.21-17.39.56:969][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling.
+[2015.02.21-17.39.56:972][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling.
+[2015.02.21-17.39.56:976][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_10, compiling.
+[2015.02.21-17.40.00:650][138]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.21-17.40.00:684][138]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.21-17.40.00:738][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling.
+[2015.02.21-17.40.02:276][189]LogMaterialEditor: Saving and Compiling material LighCycleTail
+[2015.02.21-17.40.04:347][189]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.21-17.40.04:450][189]LogMaterial: Missing cached shader map for material LighCycleTail, compiling.
+[2015.02.21-17.40.04:511][189]LogMaterial: Missing cached shader map for material LighCycleTail, compiling.
+[2015.02.21-17.40.04:537][189]LogMaterial: 0.008931 seconds spent updating 1 materials, 1 interfaces, 7 instances, 0 with static permutations.
+[2015.02.21-17.40.27:326][189]LogSavePackage: Save=1726.806763ms
+[2015.02.21-17.40.27:326][189]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/LighCycleTail6C358F7C488D632A92C5CDB59967147F.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/LighCycleTail.uasset'
+[2015.02.21-17.40.27:348][189]MaterialEditorStats: Info Base pass shader with static lighting: 453 instructions
+[2015.02.21-17.40.27:348][189]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 235 instructions
+[2015.02.21-17.40.27:348][189]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 271 instructions
+[2015.02.21-17.40.27:349][189]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.02.21-17.40.27:349][189]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.02.21-17.40.33:052][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.21-17.40.33:052][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.02.21-17.41.34:453][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/LightCycleTail" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/Meshes/LightCycleTail.uasset" SILENT=true
+[2015.02.21-17.41.35:003][450]LogSavePackage: Save=542.856934ms
+[2015.02.21-17.41.35:003][450]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/LightCycleTail890252474257BADA20530C9AA137339A.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Meshes/LightCycleTail.uasset'
+[2015.02.21-17.41.48:655][895]LogMaterial:Warning: Material /Game/TronMaterials/LightCycleTail/LighCycleTail.LighCycleTail needed to have new flag set bUsedWithSplineMeshes !
+[2015.02.21-17.41.48:704][895]LogMaterial:Warning: Material /Engine/Transient.PreviewMaterial_0 needed to have new flag set bUsedWithSplineMeshes !
+[2015.02.21-17.41.48:713][895]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.21-17.41.48:744][895]LogMaterial: 0.000328 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.21-17.41.48:750][895]LogMaterial: Missing cached shader map for material LighCycleTail, compiling.
+[2015.02.21-17.41.48:828][895]LogMaterial: 0.000351 seconds spent updating 1 materials, 1 interfaces, 7 instances, 0 with static permutations.
+[2015.02.21-17.42.32:123][441]MaterialEditorStats: Info Base pass shader with static lighting: 453 instructions
+[2015.02.21-17.42.32:123][441]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 235 instructions
+[2015.02.21-17.42.32:123][441]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 271 instructions
+[2015.02.21-17.42.32:123][441]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.02.21-17.42.32:123][441]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.02.21-17.47.20:163][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestTrack" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Maps/TestTrack_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.02.21-17.47.54:528][682]LogSavePackage: Save=33012.906250ms
+[2015.02.21-17.47.54:530][682]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/TestTrack_Auto325616F224E765A54C41C08973D852802.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Maps/TestTrack_Auto3.umap'
+[2015.02.21-17.47.55:628][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestTrack' took 37.075
+[2015.02.21-17.47.55:628][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 37.075
+[2015.02.21-17.47.56:583][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TronMaterials/LightCycleTail/LighCycleTail] ([1] browsable assets)...
+[2015.02.21-17.47.57:084][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/TronMaterials/LightCycleTail/LighCycleTail]
+[2015.02.21-17.48.00:449][682]LogSavePackage: Save=3124.027100ms
+[2015.02.21-17.48.00:449][682]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/LighCycleTail_Auto313B09B5749A5FBC5040D3C98BF797587.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/TronMaterials/LightCycleTail/LighCycleTail_Auto3.uasset'
+[2015.02.21-17.48.00:742][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TronMaterials/LightCycleTail/LighCycleTail_Red] ([1] browsable assets)...
+[2015.02.21-17.48.00:816][682]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/TronMaterials/LightCycleTail/LighCycleTail_Red.LighCycleTail_Red]
+[2015.02.21-17.48.00:816][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/TronMaterials/LightCycleTail/LighCycleTail_Red]
+[2015.02.21-17.48.07:809][682]LogSavePackage: Save=6829.939941ms
+[2015.02.21-17.48.07:810][682]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/LighCycleTail_Red_Auto38B65CD2647D426BB52EFB78FCEF07AD7.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/TronMaterials/LightCycleTail/LighCycleTail_Red_Auto3.uasset'
+[2015.02.21-17.48.07:837][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Tail_Proto] ([1] browsable assets)...
+[2015.02.21-17.48.07:894][682]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Tail_Proto.Tail_Proto]
+[2015.02.21-17.48.07:894][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tail_Proto]
+[2015.02.21-17.48.07:936][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tail_Proto" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Blueprints/Tail_Proto_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.02.21-17.48.23:712][682]LogSavePackage: Save=15654.249023ms
+[2015.02.21-17.48.23:716][682]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_Proto_Auto34959C5A74B1581507C4BBD94173CBD96.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Blueprints/Tail_Proto_Auto3.uasset'
+[2015.02.21-17.48.25:455][682]LogFileHelpers: Auto-saving content packages took 29.827
+[2015.02.21-17.59.52:704][209]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html
+[2015.02.21-18.00.07:303][331]BlueprintLog: New page: Compile Tail_Proto
+[2015.02.21-18.00.07:623][331]BlueprintEditorCompileResults: Info [2714.56] Compile of Tail_Proto successful! [in 314 ms]
+[2015.02.21-18.00.30:548][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestTrack' took 0.045
+[2015.02.21-18.00.30:584][337]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Tail_Proto] ([1] browsable assets)...
+[2015.02.21-18.00.30:644][337]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Tail_Proto.Tail_Proto]
+[2015.02.21-18.00.30:644][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tail_Proto]
+[2015.02.21-18.00.30:646][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tail_Proto" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Blueprints/Tail_Proto_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.02.21-18.00.31:032][337]LogSavePackage: Save=373.522552ms
+[2015.02.21-18.00.31:033][337]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_Proto_Auto46177EF0D47751810BAE5C18125B65DAA.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Autosaves/Game/Blueprints/Tail_Proto_Auto4.uasset'
+[2015.02.21-18.00.31:036][337]LogFileHelpers: Auto-saving content packages took 0.488
+[2015.02.21-18.00.52:332][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-18.00.52:368][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-18.00.52:394][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-18.00.52:418][439]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-18.00.52:670][441]LogRenderer:Warning: Reallocating scene render targets to support 1920x1056.
+[2015.02.21-18.01.10:903][ 16]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-18.01.13:492][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.02.21-18.02.50:301][391]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.21-18.02.56:300][693]LogEditorFactories: Performing atomic reimport of [E:/../Bitbucket/lightcycle/Art/Meshes/LightCycleTail.fbx]
+[2015.02.21-18.02.56:301][693]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.02.21-18.02.56:301][693]LogFbx:Warning: Error returned: Unexpected file type
+[2015.02.21-18.02.56:301][693]LogEditorFactories:Warning: -- import failed
+[2015.02.21-18.04.42:976][571]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.21-18.04.42:979][571]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.21-18.04.43:082][571]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2015.02.21-18.04.43:082][571]PIE: New page: PIE session: TestTrack (Feb 21, 2015, 8:04:43 PM)
+[2015.02.21-18.04.43:142][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059150s)
+[2015.02.21-18.04.43:143][571]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2015.02.21-18.04.43:143][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestTrack.TestTrack to /Game/Maps/UEDPIE_0_TestTrack.TestTrack (0.060456s)
+[2015.02.21-18.04.43:186][571]LogWorld: Game class is 'LightCycleGameMode'
+[2015.02.21-18.04.43:187][571]LogAIModule: Creating AISystem for world TestTrack
+[2015.02.21-18.04.43:194][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestTrack.TestTrack up for play (max tick rate 0) at 2015.02.21-19.04.43
+[2015.02.21-18.04.43:196][571]LogWorld: Bringing up level for play took: 0.008757
+[2015.02.21-18.04.43:200][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestTrack -0.649
+[2015.02.21-18.05.02:446][803]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000078821B560
+[2015.02.21-18.10.51:104][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestTrack' took 0.055
+[2015.02.21-18.53.33:328][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMaterials/DefaultMaterial" FILE="../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" SILENT=true
+[2015.02.21-18.53.51:556][173]LogSavePackage: Save=18199.365234ms
+[2015.02.21-18.53.51:556][173]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/DefaultMaterialFBF02D8242F19178BCAE87B698D09DAE.tmp' to '../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset'
+[2015.02.21-18.53.51:584][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tail_Proto" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/Blueprints/Tail_Proto.uasset" SILENT=true
+[2015.02.21-18.53.51:613][173]LogSavePackage: Save=15.078658ms
+[2015.02.21-18.53.51:613][173]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/Tail_Proto3F0E94CF4B74B93E97A029AC69D12CAC.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Blueprints/Tail_Proto.uasset'
+[2015.02.21-18.53.51:873][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestTrack" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/Maps/TestTrack.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.21-18.53.55:260][173]LogSavePackage: Save=3243.644531ms
+[2015.02.21-18.53.55:260][173]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/TestTrack027E2B3C4887A4CCA814458079AD1841.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/Maps/TestTrack.umap'
+[2015.02.21-18.53.55:347][173]LogFileHelpers: Saving map 'TestTrack' took 3.724
+[2015.02.21-18.53.55:403][173]LogSavePackage: Save=39.944611ms
+[2015.02.21-18.53.55:403][173]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/LighCycleTail04692BC740824BE9D5DFC799C3B27C71.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/LighCycleTail.uasset'
+[2015.02.21-18.53.55:475][173]LogSavePackage: Save=15.677374ms
+[2015.02.21-18.53.55:476][173]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/LighCycleTail_RedAFA09AD2434C5F6291ECFF88FE0E30B8.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/LighCycleTail_Red.uasset'
+[2015.02.21-18.53.55:500][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TronMaterials/LightCycleTail/NewBlueprint" FILE="../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/NewBlueprint.uasset" SILENT=true
+[2015.02.21-18.53.55:516][173]LogSavePackage: Save=11.425636ms
+[2015.02.21-18.53.55:516][173]LogSavePackage: Moving '../../../../../../Bitbucket/lightcycle/LightCycle/Saved/NewBlueprint7751F8534CD3A5948CE6C694E5C172AD.tmp' to '../../../../../../Bitbucket/lightcycle/LightCycle/Content/TronMaterials/LightCycleTail/NewBlueprint.uasset'
+[2015.02.21-18.53.58:175][174]Cmd: QUIT_EDITOR
+[2015.02.21-18.53.59:187][174]LogExit: Preparing to exit.
+[2015.02.21-18.54.01:085][174]LogExit: Editor shut down
+[2015.02.21-18.54.01:086][174]LogExit: Transaction tracking system shut down
+[2015.02.21-18.54.01:087][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F88A9E40
+[2015.02.21-18.54.01:092][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F1523920
+[2015.02.21-18.54.01:093][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F86A0720
+[2015.02.21-18.54.01:094][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F8268680
+[2015.02.21-18.54.01:095][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F2454860
+[2015.02.21-18.54.01:095][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007868A2700
+[2015.02.21-18.54.01:114][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000078F9AD260
+[2015.02.21-18.54.02:994][174]LogExit: Object subsystem successfully closed.
+[2015.02.21-18.54.04:151][174]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (176)
+[2015.02.21-18.54.04:151][174]LogModuleManager: Shutting down and abandoning module MaterialEditor (175)
+[2015.02.21-18.54.04:151][174]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (174)
+[2015.02.21-18.54.04:151][174]LogModuleManager: Shutting down and abandoning module SynthBenchmark (173)
+[2015.02.21-18.54.04:151][174]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.21-18.54.04:174][174]LogModuleManager: Shutting down and abandoning module EditorWidgets (171)
+[2015.02.21-18.54.04:174][174]LogModuleManager: Shutting down and abandoning module CollectionManager (170)
+[2015.02.21-18.54.04:204][174]LogModuleManager: Shutting down and abandoning module CrashTracker (169)
+[2015.02.21-18.54.04:204][174]LogModuleManager: Shutting down and abandoning module SuperSearch (168)
+[2015.02.21-18.54.04:204][174]LogModuleManager: Shutting down and abandoning module SceneOutliner (167)
+[2015.02.21-18.54.04:204][174]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.21-18.54.04:229][174]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.21-18.54.04:236][174]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.21-18.54.04:255][174]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.21-18.54.04:263][174]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.21-18.54.04:284][174]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.21-18.54.04:284][174]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.21-18.54.04:284][174]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.21-18.54.04:284][174]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.21-18.54.04:292][174]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.21-18.54.04:292][174]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.21-18.54.04:292][174]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.21-18.54.04:302][174]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.21-18.54.04:302][174]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.21-18.54.04:302][174]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.21-18.54.04:302][174]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.21-18.54.04:321][174]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.21-18.54.04:321][174]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.21-18.54.04:341][174]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.21-18.54.04:341][174]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.21-18.54.04:369][174]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.21-18.54.04:369][174]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.21-18.54.04:369][174]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.21-18.54.04:393][174]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.21-18.54.04:400][174]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.21-18.54.04:406][174]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.21-18.54.04:406][174]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.21-18.54.04:420][174]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.21-18.54.04:437][174]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.21-18.54.04:449][174]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.21-18.54.04:473][174]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.21-18.54.04:473][174]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.21-18.54.04:473][174]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.21-18.54.04:473][174]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.21-18.54.04:617][174]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.21-18.54.04:640][174]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.21-18.54.04:661][174]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.21-18.54.04:661][174]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.21-18.54.04:661][174]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.21-18.54.04:661][174]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.21-18.54.04:677][174]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.21-18.54.04:711][174]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.21-18.54.04:711][174]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.21-18.54.04:726][174]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.21-18.54.04:727][174]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.21-18.54.04:733][174]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.21-18.54.04:733][174]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.21-18.54.04:733][174]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.21-18.54.04:733][174]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.21-18.54.04:733][174]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.21-18.54.04:742][174]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.21-18.54.04:767][174]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.21-18.54.04:911][174]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.21-18.54.04:930][174]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.21-18.54.04:942][174]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.21-18.54.04:942][174]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.21-18.54.04:942][174]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.21-18.54.04:942][174]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.21-18.54.04:942][174]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.21-18.54.04:998][174]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.21-18.54.05:008][174]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.21-18.54.05:008][174]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.21-18.54.05:008][174]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.21-18.54.05:017][174]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.21-18.54.05:032][174]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.21-18.54.05:033][174]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.21-18.54.05:033][174]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.21-18.54.05:064][174]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.21-18.54.05:064][174]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.21-18.54.05:078][174]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.21-18.54.05:078][174]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.21-18.54.05:090][174]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.21-18.54.05:092][174]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.21-18.54.05:106][174]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.21-18.54.05:106][174]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.21-18.54.05:115][174]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.21-18.54.05:115][174]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.21-18.54.05:115][174]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.21-18.54.05:115][174]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.21-18.54.05:115][174]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.21-18.54.05:115][174]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.21-18.54.05:137][174]LogModuleManager: Shutting down and abandoning module LightCycle (77)
+[2015.02.21-18.54.05:137][174]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2015.02.21-18.54.05:153][174]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2015.02.21-18.54.05:254][174]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2015.02.21-18.54.05:267][174]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.21-18.54.05:292][174]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.21-18.54.05:292][174]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.21-18.54.05:293][174]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.21-18.54.05:293][174]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.21-18.54.05:293][174]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.21-18.54.05:326][174]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.21-18.54.05:336][174]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.21-18.54.05:353][174]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.21-18.54.05:353][174]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.21-18.54.05:353][174]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.21-18.54.05:379][174]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.21-18.54.05:390][174]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.21-18.54.05:409][174]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.21-18.54.05:421][174]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.21-18.54.05:421][174]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.21-18.54.05:429][174]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.21-18.54.05:446][174]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.21-18.54.05:456][174]LogDerivedDataCache: Shutdown
+[2015.02.21-18.54.05:456][174]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.21-18.54.05:470][174]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.21-18.54.05:478][174]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.21-18.54.05:495][174]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.21-18.54.05:495][174]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.21-18.54.05:507][174]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.21-18.54.05:507][174]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.21-18.54.05:507][174]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.21-18.54.05:520][174]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.21-18.54.05:520][174]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.21-18.54.05:520][174]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.21-18.54.05:520][174]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.21-18.54.05:521][174]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.21-18.54.05:535][174]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.21-18.54.05:535][174]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.21-18.54.05:549][174]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.21-18.54.05:549][174]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.21-18.54.05:549][174]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.21-18.54.05:567][174]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.21-18.54.05:567][174]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.21-18.54.05:567][174]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.21-18.54.05:567][174]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.21-18.54.05:567][174]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.21-18.54.05:567][174]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.21-18.54.05:584][174]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.21-18.54.05:598][174]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.21-18.54.05:612][174]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.21-18.54.05:629][174]LogExit: Exiting.
+[2015.02.21-18.54.05:670][174]Log file closed, 02/21/15 19:54:05

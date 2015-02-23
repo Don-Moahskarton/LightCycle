@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\LightCycle.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6F0701A8-E6A0-45D0-8454-5F345EC4B87E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LightCycle.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\LightCycleEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E6454321-F348-4979-B927-461498698328}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\LightCycle">
+			<UniqueIdentifier>{E490EC56-7C9D-4AD6-8A44-87DDF9CE7B3F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LightCycle\LightCycle.Build.cs">
+			<Filter>Source\LightCycle</Filter>
+		</None >
+		<Filter Include="Source\LightCycle\Private">
+			<UniqueIdentifier>{C825076E-9957-4AA3-8744-74E5C7B111B9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycle.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycleCharacter.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycleGameMode.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycleHud.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycleMovementComponent.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycleProjectile.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\LightCycle\Private\LightCycleTail.cpp">
+			<Filter>Source\LightCycle\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\LightCycle\Public">
+			<UniqueIdentifier>{DEEEF100-1850-428A-9273-222F21CEBBEC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycle.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycleCharacter.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycleGameMode.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycleHud.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycleMovementComponent.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycleProjectile.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\LightCycle\Public\LightCycleTail.h">
+			<Filter>Source\LightCycle\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\LightCycle\Resources">
+			<UniqueIdentifier>{2A1A9E48-C20F-4F0F-81B8-AB806C9394E0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\LightCycle\Resources\Windows">
+			<UniqueIdentifier>{0187B676-2558-44F2-905C-E7EAFD3BC724}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LightCycle\Resources\Windows\LightCycle.ico">
+			<Filter>Source\LightCycle\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\LightCycle\Resources\Windows\LightCycle.rc">
+			<Filter>Source\LightCycle\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+﻿Build started 21/02/2015 18:22:46.
+     1>Project "E:\Bitbucket\lightcycle\LightCycle\Intermediate\ProjectFiles\LightCycle.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "E:\Unreal Engine 4\Unreal Engine\4.6\Engine\Build\BatchFiles\Build.bat" LightCycleEditor Win64 DebugGame "E:\Bitbucket\lightcycle\LightCycle\LightCycle.uproject" -rocket
+         Compiling game modules for hot reload
+         Parsing headers for LightCycleEditor
+         Reflection code generated for LightCycleEditor
+         Performing 13 actions (2 in parallel)
+         [2/13] Resource ModuleVersionResource.rc.inl
+         PCH.LightCycle.LightCycle.h.cpp
+         [3/13] Resource LightCycle.rc
+         LightCycle.generated.cpp
+         LightCycleGameMode.cpp
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleGameMode.cpp(8): warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public/LightCycleProjectile.h(13): warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public/LightCycleProjectile.h(17): warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+         LightCycleCharacter.cpp
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(13): warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(17): warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleCharacter.cpp(13): warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleCharacter.cpp(22): warning C4996: 'ACharacter::CapsuleComponent': CapsuleComponent should not be accessed directly, please use GetCapsuleComponent() function instead. CapsuleComponent will soon be private and your code will not compile. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+                 E:\Unreal Engine 4\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(230) : see declaration of 'ACharacter::CapsuleComponent'
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleCharacter.cpp(30): warning C4996: 'ACharacter::CapsuleComponent': CapsuleComponent should not be accessed directly, please use GetCapsuleComponent() function instead. CapsuleComponent will soon be private and your code will not compile. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+                 E:\Unreal Engine 4\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(230) : see declaration of 'ACharacter::CapsuleComponent'
+         LightCycleProjectile.cpp
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(13): warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Public\LightCycleProjectile.h(17): warning C4996: TSubobjectPtr is deprecated and should no longer be used. Please use pointers instead.
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleProjectile.cpp(7): warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+         LightCycleMovementComponent.cpp
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleMovementComponent.cpp(7): warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+         LightCycleHud.cpp
+     1>E:\Bitbucket\lightcycle\LightCycle\Source\LightCycle\Private\LightCycleHud.cpp(9): warning C4996: FPostConstructInitializeProperties is deprecated and was renamed to FObjectInitializer. Please use that type instead.
+         LightCycleTail.cpp
+         LightCycle.cpp
+         AutoStartupModuleListGetter.generated.cpp
+         [13/13] Link UE4Editor-LightCycle-6652-Win64-DebugGame.dll
+            Creating library E:\Bitbucket\lightcycle\LightCycle\Intermediate\Build\Win64\LightCycleEditor\DebugGame\UE4Editor-LightCycle-6652-Win64-DebugGame.lib and object E:\Bitbucket\lightcycle\LightCycle\Intermediate\Build\Win64\LightCycleEditor\DebugGame\UE4Editor-LightCycle-6652-Win64-DebugGame.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Cumulative action seconds (4 processors): 0,00 building projects, 37,65 compiling, 0,00 creating app bundles, 0,00 generating debug info, 2,03 linking, 0,00 other
+         UBT execution time: 52,18 seconds
+     1>Done Building Project "E:\Bitbucket\lightcycle\LightCycle\Intermediate\ProjectFiles\LightCycle.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:52.71

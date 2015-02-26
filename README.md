@@ -1,29 +1,11 @@
-# README #
+# Welcome to LightCycle ! #
+LightCycle is a 3D game powered by Unreal Engine 4, featuring 100% movie-acurate Tron: Legacy Light Cycles.
+Play fast-paced light cycle battles on the grid !
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### How to get the project up and running ? ###
+You need Unreal Engine 4.6 Editor to launch the game.
+You also need Visual Studio 2013 to recompile the source code if you made modifications.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+ * Fist get this repo on your hard drive
+ * Then, open the \LightCycle\LightCycle.uproject file in the editor.
+ * Welcome to the grid, user !
